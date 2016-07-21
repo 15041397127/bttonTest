@@ -15,6 +15,7 @@
 		347FBB631D2C9EDD00741172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347FBB611D2C9EDD00741172 /* LaunchScreen.storyboard */; };
 		347FBB6E1D2C9EDD00741172 /* bttonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FBB6D1D2C9EDD00741172 /* bttonTestTests.m */; };
 		347FBB791D2C9EDD00741172 /* bttonTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FBB781D2C9EDD00741172 /* bttonTestUITests.m */; };
+		347FBBAA1D3340E700741172 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 347FBBA91D3340E700741172 /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		347FBB741D2C9EDD00741172 /* bttonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bttonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347FBB781D2C9EDD00741172 /* bttonTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bttonTestUITests.m; sourceTree = "<group>"; };
 		347FBB7A1D2C9EDD00741172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347FBBA81D3340E700741172 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		347FBBA91D3340E700741172 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				347FBB571D2C9EDD00741172 /* AppDelegate.m */,
 				347FBB591D2C9EDD00741172 /* ViewController.h */,
 				347FBB5A1D2C9EDD00741172 /* ViewController.m */,
+				347FBBA81D3340E700741172 /* ViewController1.h */,
+				347FBBA91D3340E700741172 /* ViewController1.m */,
 				347FBB5C1D2C9EDD00741172 /* Main.storyboard */,
 				347FBB5F1D2C9EDD00741172 /* Assets.xcassets */,
 				347FBB611D2C9EDD00741172 /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				347FBBAA1D3340E700741172 /* ViewController1.m in Sources */,
 				347FBB5B1D2C9EDD00741172 /* ViewController.m in Sources */,
 				347FBB581D2C9EDD00741172 /* AppDelegate.m in Sources */,
 				347FBB551D2C9EDC00741172 /* main.m in Sources */,
@@ -496,6 +502,7 @@
 				347FBB7F1D2C9EDD00741172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		347FBB801D2C9EDD00741172 /* Build configuration list for PBXNativeTarget "bttonTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				347FBB821D2C9EDD00741172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		347FBB831D2C9EDD00741172 /* Build configuration list for PBXNativeTarget "bttonTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				347FBB851D2C9EDD00741172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
